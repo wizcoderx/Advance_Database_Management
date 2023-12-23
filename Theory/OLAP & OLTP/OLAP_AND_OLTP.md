@@ -10,7 +10,7 @@
 <p>When i comes to using data to make smarter decisions its not a question of choosing between OLAP and OLTP
 Its a question of how to make the best use of both processing, for you situatuon</p>
 <br>
-<b>Now lets talk about OLAP (Online Analytical Processing):<br>
+<b>Now lets talk about OLAP (Online Analytical Processing):</b><br>
 
 <ul>
 <li>The OLAP uses data to gain valuable information.</li>
