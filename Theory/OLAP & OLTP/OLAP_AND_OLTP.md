@@ -20,9 +20,43 @@ Its a question of how to make the best use of both processing, for you situatuon
 <li>Here dimensions means simply an element of a particular data set, Example: Sales figure might have several dimensions related to region, time of year, and product models.</li>
 <li>The OLAP cube extends the row by column format of a traditional relational database schema and adds layers for other data dimensions</li>
 <li>Example: While the top layer of the cube might organize sales by region, data analyst can also drill down into layers for sales by State or City or Specicifc store.</li>
-<b>Uses<b>
+<br>
+<b>Uses</b>
+
 <li>OLAP is ideal for tasks such as datamining, business intelligence, and complex analytical calculations</li>
 <li>Also well suited for business reporting functions like financial analysis, bugeting, sales forcasting, etc</li>
+
+
+</ul>
+
+
+<b>Now lets talk about OLTP (Online Transaction Process):</b><br>
+
+<ul>
+<li>The OLTP used to for real-time executions of large number of database transactions by large number of people</li>
+<li>OLTP uses non relational databases</li>
+<li>It can can process large number of relatively simple transactions, for doing things like insertion, update, delete of data, to do this with rapid processing with response time measured on milliseconds</li>
+<li>They also enable milti-user access to the server data while ensuring data integrity and provide indexed data sets for Rapid searching </li>
+<br>
+<b>Uses</b>
+<li>OLTP systems are behind everyday transaction from ATM's, Hotel Reservation, in-store purchase</li>
+<li>OLTP can also be used for non-financial transactions, like changing of password and text messages also come under OLTP</li>
+<br>
+
+<p> So basically, OLTP does all the infrastructure work and OLAP does the all the analytical work</p>
+
+<hr>
+
+## Differenc between OLAP and OLTP
+
+| Feature                                   | OLAP                                        | OLTP                                                |
+|-------------------------------------------|---------------------------------------------|------------------------------------------------------|
+| **Optimization Focus**                    | Complex data analysis                      | Processing a massive number of transactions          |
+| **User Type**                             | Data scientists, knowledge workers, etc.    | Front-line workers (cashiers, bank tellers, hotel desk, etc.) for customer service applications|
+
+
+<b>FACT:</b>
+<p>OLAP systems may be used to analyze data that leads to business process improvements in OLTP systems, and most organizations do that.</p>
 
 </ul>
 
